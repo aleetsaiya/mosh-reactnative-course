@@ -2,10 +2,11 @@
 
 ## 目錄
 
-+ [Ch1. Getting Started](#ch1.-getting-started)
-+ [Ch2. Layout](#ch2.-layout)
++ [Ch1. Getting Started](#getting-started)
++ [Ch2. Fundamental Concepts](#fundamental-concepts)
++ [Ch3. Layout](#layout)
 
-## Ch1. Getting Started
+## Getting Started
 
 ### 建立 React Native 專案
 
@@ -112,4 +113,4 @@ Alert.alert(
 ```jsx
 alert("This Platform's OS is : " + Platform.OS)
 ```
-## Ch2. Layout
+## Layout
