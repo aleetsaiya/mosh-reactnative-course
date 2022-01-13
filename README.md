@@ -9,7 +9,7 @@
 
 ### 建立 React Native 專案
 
-```bash
+```console
 npm install -g expo-cli
 expo init myApp
 ```
