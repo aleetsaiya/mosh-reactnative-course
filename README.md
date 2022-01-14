@@ -3,7 +3,8 @@
 ## 目錄
 
 + [Ch1. Getting Started](#ch1.-getting-started)
-+ [Ch2. Layout](#ch2.-layout)
++ [Ch2. Fundamental Concepts](#ch2.-fundemental-concepts)
++ [Ch2. Layout](#ch3.-layout)
 
 ## Ch1. Getting Started
 
@@ -52,7 +53,7 @@ _(搖晃手機可以開啟 developer menu)_
 2. 從網頁內點 publish or republish project
 3. 在 cmd 裡面登入 expo project 的帳號密碼
 
-## Fundamental Concepts
+## Ch2. Fundamental Concepts
 
 ### Component
 + `<View/>`: 跟 div 差不多
@@ -112,4 +113,20 @@ Alert.alert(
 ```jsx
 alert("This Platform's OS is : " + Platform.OS)
 ```
-## Ch2. Layout
+## Ch3. Layout
+
++ 獲得裝置方向: 
+```jsx
+// 1. Dimentions.get("screen")
+console.log(Dimentios.get("screen"))
+// 2. use hooks (npm install @react-native-community/hooks)
+import {
+  useDimensions,
+  useDeviceOrientation,
+} from "@react-native-community/hooks";
+// get orientation from hooks
+const orientation = useDeviceOrientation();
+const dimensions = useDimensions();
+```
+
++ `flex` in style: `flex: 1` 代表全部, 0.5 代表一半
