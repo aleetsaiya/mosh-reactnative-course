@@ -2,15 +2,21 @@
 
 ## 目錄
 
+<<<<<<< HEAD
 + [Ch1. Getting Started](#ch1.-getting-started)
 + [Ch2. Fundamental Concepts](#ch2.-fundemental-concepts)
 + [Ch2. Layout](#ch3.-layout)
+=======
++ [Ch1. Getting Started](#getting-started)
++ [Ch2. Fundamental Concepts](#fundamental-concepts)
++ [Ch3. Layout](#layout)
+>>>>>>> 7b28e8c75e2d7456922cf503e2d20607b1461c01
 
-## Ch1. Getting Started
+## Getting Started
 
 ### 建立 React Native 專案
 
-```bash
+```console
 npm install -g expo-cli
 expo init myApp
 ```
@@ -113,6 +119,7 @@ Alert.alert(
 ```jsx
 alert("This Platform's OS is : " + Platform.OS)
 ```
+<<<<<<< HEAD
 ## Ch3. Layout
 
 + 獲得裝置方向: 
@@ -130,3 +137,6 @@ const dimensions = useDimensions();
 ```
 
 + `flex` in style: `flex: 1` 代表全部, 0.5 代表一半
+=======
+## Layout
+>>>>>>> 7b28e8c75e2d7456922cf503e2d20607b1461c01
